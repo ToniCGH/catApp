@@ -1,0 +1,23 @@
+.card{
+    border: 3px solid black;
+    box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.75);
+    height: 350px;
+    width: 250px;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: paleturquoise;
+}
+
+.card-img {
+    height: 200px;
+    width: 200px;
+    border: 3px solid black;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: bottom;
+}

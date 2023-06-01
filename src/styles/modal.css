@@ -1,0 +1,132 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1040;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    opacity: .5;
+  }
+  
+  .modal-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1050;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    outline: 0;
+  }
+  
+  .modal {
+    background-image: url(../images/modal-back.png);
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    position: fixed;    
+    min-width: 450px;
+    overflow: auto;
+  }
+  .modal h2 {
+    color: black;
+    font-size: 35px;    
+    font-family: 'Playfair Display', serif;
+  }
+
+  .modal h3 {
+    text-align: center;
+    padding-top: 10px;
+    margin: 7.5px;
+    font-family: 'Playfair Display', serif;    
+  }
+  
+  .modal-header {
+    /* display: flex;
+    justify-content: flex-end; */
+    /* border: 3px solid yellow; */
+  }
+  
+  .modal-close-button {
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    opacity: .6;
+    cursor: pointer;
+    border: none;
+    padding-top: 10px;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-button {
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    opacity: 0.6;
+    border: 1px black solid;
+    border-radius: 15px;
+    padding: .3rem 1rem;
+    margin-left: .5rem;
+    cursor: pointer;
+    position: relative; 
+    max-width: 30px; 
+    max-height: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .button-default {
+    background: red;
+    color: #fff;
+  }
+
+  .modal-images {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    object-fit: cover;
+    margin-top: 25px;
+    border: solid 2px black;
+    border-radius: 15px;
+    align-self: center;
+  }
+
+  .modal-item-containers {
+    border: 3px solid black;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 400px;
+    width: 250px;    
+    backdrop-filter: blur(6px);
+    margin-bottom: 20px;    
+    padding: 25px 80px 25px 80px;
+    box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.75);   
+  }
+  .about-me-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .modal-your-basket {
+    margin-bottom: 10px;
+  }
+
+  .modal-your-basket-price {
+    margin-bottom: 1rem;
+  }

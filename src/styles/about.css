@@ -1,0 +1,16 @@
+.about-container{
+
+    display: flex;
+    font-family: 'Playfair Display', serif;
+    max-width: 50%;
+    padding: 5%;
+    border: 5px solid lightgray;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    height: calc(100vh - 138px);
+
+
+}

@@ -1,0 +1,37 @@
+.aboutMe-container {
+    height: calc(100vh - 138px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me {
+    border: 2px solid black;
+    min-width: 600px;
+    min-height: 700px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    /* justify-content: space-between; */
+
+}
+
+.about-me-info-about-me {
+    border: 2px solid red;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: paleturquoise;
+    border-radius: 0 0 10px 10px;
+}
+
+.about-me img {
+  min-width: 60%;
+  margin: 0;
+  border-radius: 10px 10px 0 0;
+  height: 450px;
+  object-fit: cover;
+}
